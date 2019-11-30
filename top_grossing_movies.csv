@@ -397,7 +397,7 @@ Rank,Title,Release Date,Distributor,Genre,Gross,Tickets Sold,highest_grossing_ye
 4,The Sand Pebbles,20-Dec-66,,Drama,30017647,27539125,1966
 5,A Man for All Seasons,12-Dec-66,Sony Pictures,Drama,28350000,26009174,1966
 6,"Lt. Robin Crusoe, U.S.N.",29-Jun-66,,Comedy,22565634,20702416,1966
-7,The Russians Are Coming, the Russians Are Coming,25-May-66,MGM,Comedy,21693114,19901939,1966
+7,The Russians Are Coming! The Russians Are Coming!,1966-05-25,MGM,Comedy,21693114,19901939,1966
 8,Grand Prix,21-Dec-66,MGM,Drama,20845016,19123867,1966
 9,The Professionals,02-Nov-66,Sony Pictures,Western,19537346,17924170,1966
 10,Alfie,24-Aug-66,Paramount Pictures,Comedy,18871300,17313119,1966
@@ -1179,7 +1179,6 @@ Rank,Title,Release Date,Distributor,Genre,Gross,Tickets Sold,highest_grossing_ye
 11,Superman III,17-Jun-83,Warner Bros.,Adventure,59950623,19031943,1983
 12,Never Say Never Again,07-Oct-83,Warner Bros.,Action,53448619,16967815,1983
 13,Gandhi,08-Dec-82,Sony Pictures,Drama,51443727,16331341,1983
-14,48 Hrs.,08-Dec-82,Paramount Pictures,Action,51295908,16284415,1983
 15,The Big Chill,06-Nov-98,Sony Pictures,Comedy,43738171,13885133,1983
 16,Terms of Endearment,23-Nov-83,Paramount Pictures,Drama,42968996,13640951,1983
 17,Blue Thunder,13-May-83,Sony Pictures,Action,42313354,13432810,1983
@@ -1307,7 +1306,7 @@ Rank,Title,Release Date,Distributor,Genre,Gross,Tickets Sold,highest_grossing_ye
 39,The Jungle Book,13-Jul-90,Walt Disney,Musical,23001559,6845702,1984
 40,Missing in Action,16-Nov-84,Cannon,Action,22812411,6789408,1984
 41,The Last Starfighter,13-Jul-84,Universal,Comedy,22200789,6607377,1984
-42,Oh God, You Devil!,09-Nov-84,Warner Bros.,Comedy,21538000,6410119,1984
+42,"Oh God, You Devil!",09-Nov-84,Warner Bros.,Comedy,21538000,6410119,1984
 43,Rhinestone,22-Jun-84,20th Century Fox,Comedy,21400000,6369047,1984
 44,The Neverending Story,20-Jul-84,Warner Bros.,Adventure,21300000,6339285,1984
 45,Top Secret!,22-Jun-84,Paramount Pictures,Comedy,21100000,6279761,1984
@@ -1461,7 +1460,6 @@ Rank,Title,Release Date,Distributor,Genre,Gross,Tickets Sold,highest_grossing_ye
 93,Sweet Dreams,02-Oct-85,Sony/TriStar,Drama,9100000,2563380,1985
 94,Target,08-Nov-85,Warner Bros.,Thriller/Suspense,9023199,2541746,1985
 95,Cat's Eye,12-Apr-85,MGM,Horror,9000000,2535211,1985
-96,2010,07-Dec-84,MGM,Thriller/Suspense,8910060,2509876,1985
 97,Gotcha,03-May-85,Universal,Action,8823269,2485427,1985
 98,Mischief,08-Feb-85,20th Century Fox,Comedy,8700000,2450704,1985
 99,The River,17-Dec-84,Universal,Drama,8679857,2445030,1985
@@ -1671,7 +1669,6 @@ Rank,Title,Release Date,Distributor,Genre,Gross,Tickets Sold,highest_grossing_ye
 3,Good Morning Vietnam,23-Dec-87,Walt Disney,Comedy,121650966,29598775,1988
 4,Big,03-Jun-88,20th Century Fox,Comedy,112555170,27385686,1988
 5,Crocodile Dundee II,25-May-88,Paramount Pictures,Adventure,109306210,26595184,1988
-6,3 Men and a Baby,25-Nov-87,Walt Disney,Comedy,80091739,19487041,1988
 7,Cocktail,29-Jul-88,Walt Disney,Drama,78222753,19032300,1988
 8,Moonstruck,16-Dec-87,MGM,Romantic Comedy,77051120,18747231,1988
 9,Die Hard,15-Jul-88,20th Century Fox,Action,74849649,18211593,1988
@@ -2062,7 +2059,6 @@ Rank,Title,Release Date,Distributor,Genre,Gross,Tickets Sold,highest_grossing_ye
 94,The Long Walk Home,21-Dec-90,Miramax,Drama,13798030,3277441,1991
 95,Drop Dead Fred,19-Apr-91,New Line,Comedy,13746300,3265154,1991
 96,Goodfellas,19-Sep-90,Warner Bros.,Drama,12833790,3048406,1991
-97,3 Men and a Little Lady,21-Nov-90,Walt Disney,Comedy,12629081,2999781,1991
 98,The Marrying Man,05-Apr-91,Walt Disney,Romantic Comedy,12454768,2958377,1991
 99,Year of the Gun,01-Nov-91,,,11820000,2807600,1991
 100,Shattered,11-Oct-91,MGM,Thriller/Suspense,11511031,2734211,1991
@@ -3080,7 +3076,6 @@ Rank,Title,Release Date,Distributor,Genre,Gross,Tickets Sold,highest_grossing_ye
 12,Lilo & Stitch,21-Jun-02,Walt Disney,Adventure,145771527,25089763,2002
 13,xXx,09-Aug-02,Sony Pictures,Action,141930000,24428571,2002
 14,The Santa Clause 2,01-Nov-02,Walt Disney,Adventure,138277797,23799965,2002
-15,A Beautiful Mind,21-Dec-01,Universal,Drama,132929755,22879475,2002
 16,Minority Report,21-Jun-02,20th Century Fox,Action,132024714,22723702,2002
 17,The Ring,18-Oct-02,Dreamworks SKG,Horror,127230430,21898524,2002
 18,Mr. Deeds,28-Jun-02,Sony Pictures,Comedy,126293452,21737255,2002
@@ -3418,7 +3413,7 @@ Rank,Title,Release Date,Distributor,Genre,Gross,Tickets Sold,highest_grossing_ye
 50,Kicking & Screaming,13-May-05,Universal,Comedy,52842724,8243794,2005
 51,Hide and Seek,28-Jan-05,20th Century Fox,Thriller/Suspense,51100486,7971994,2005
 52,The Hitchhiker's Guide to the Galaxy,29-Apr-05,Walt Disney,Adventure,51019112,7959299,2005
-53,Yours, Mine & Ours,23-Nov-05,Paramount Pictures,Comedy,50733384,7914724,2005
+53,"Yours, Mine & Ours",23-Nov-05,Paramount Pictures,Comedy,50733384,7914724,2005
 54,Diary of a Mad Black Woman,25-Feb-05,Lionsgate,Drama,50406346,7863704,2005
 55,Cheaper by the Dozen 2,21-Dec-05,20th Century Fox,Adventure,50313031,7849146,2005
 56,Racing Stripes,14-Jan-05,Warner Bros.,Adventure,49772522,7764824,2005
