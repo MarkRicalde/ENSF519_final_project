@@ -1,9 +1,20 @@
 import os
 import pandas as pd
+import re
 import requests
 from bs4 import BeautifulSoup
 
 filename   = 'top_grossing_movies.csv'
+
+def get_movie_title(url):
+    data = requests.get(url).text
+    parser = BeautifulSoup(data, 'html.parser')
+    tag = parser.find('h1')
+    if tag == None:
+        return None
+    full_movie_name = tag.text
+    full_movie_name = re.sub(r' \(\d\d\d\d\)$', '', full_movie_name)
+    return full_movie_name
 
 def get_highest_grossing_movies(year, top_n):
     print('Gathering highest grossing movies for: {}'.format(year))
@@ -25,6 +36,14 @@ def get_highest_grossing_movies(year, top_n):
             continue
         year = parser.find('h1').text.replace('Annual Movie Chart - ', '')
         results_list.append(year)
+        movie_name = results_list[1]
+        if '…' in movie_name:
+            # Need to follow href to get full movie title
+            print(' Following href to get full title of: {}'.format(results_list[1]))
+            href = movie_tag.find('b').find('a')
+            movie_url = 'https://www.the-numbers.com{}'.format(href['href'])
+            results_list[1] = get_movie_title(movie_url)
+        results_list[1] = results_list[1].replace('â', "'")
         top_movies.append(results_list)
         count += 1
     return top_movies
@@ -35,9 +54,13 @@ def clean_numerical_col(text):
 
 movie_dict = {}
 # Parse through previous csv - don't re scrape existing data
+append_write = 'w'
+kwargs = {}
 if os.path.exists(filename):
     prior_data = pd.read_csv(filename)
-    for year in prior_data.release_year:
+    append_write = 'a'
+    kwargs = {'mode':'a', 'header':False}
+    for year in prior_data.highest_grossing_year:
         movie_dict[year] = None
 
 all_results = []
@@ -59,4 +82,4 @@ for year in range(1930, 2018):
 df = pd.DataFrame.from_records(all_results, columns=['Rank', 'Title', 'Release Date', 'Distributor', 'Genre', 'Gross', 'Tickets Sold', 'highest_grossing_year'])
 df['Gross'] = df['Gross'].apply(clean_numerical_col)
 df['Tickets Sold'] = df['Tickets Sold'].apply(clean_numerical_col)
-df.to_csv(filename)
+df.to_csv(filename, **kwargs)
