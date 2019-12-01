@@ -4,3 +4,6 @@
 cleaned_non_oscar_movie_scripts.csv
 
 .vscode/
+
+raw_data/
+processed_data/
